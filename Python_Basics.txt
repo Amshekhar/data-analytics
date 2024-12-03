@@ -1,0 +1,155 @@
+1. Introduction to Python
+
+  => What is Python?
+    *  Python is a high-level, interpreted programming language.
+    *  Designed to be easy to read and write, with a simple syntax.
+    *  Created by Guido van Rossum in 1991.
+
+  => Key Features of Python:
+    * Ease of Use: Beginner-friendly, intuitive syntax.
+    * Versatility: Can be used for web development, data analysis, AI,        automation, and more.
+    * Extensive Libraries: Includes libraries like NumPy, Pandas, Flask, Django, etc.
+    * Platform Independent: Works on Windows, macOS, Linux, etc.
+
+  => Popular Uses:
+
+    * Web Development
+    * Data Science & Machine Learning
+    * Scripting & Automation
+    * Game Development
+    * IoT (Internet of Things)
+
+2. Python Syntax
+  *  Python syntax is clean and uses indentation instead of curly braces.
+
+  Example:
+  # This is a Python program
+    print("Hello, World!")
+
+  Important Notes:
+  * Python is case-sensitive.
+  * Statements end with a newline (not a semicolon).
+
+3. Python Comments:
+  * Comments are used to explain code and are ignored by the interpreter.
+  * Single-line Comment: Starts with #.
+
+  # This is a comment
+    print("Hello, World!")  # This prints a message
+
+  Multi-line Comments:
+    """
+    This is a multi-line comment.
+    It can span multiple lines.
+    """
+    print("Multi-line comments are ignored by Python!")
+
+4. Variables
+    Variables store data for later use.
+
+    Rules:
+
+    * Must start with a letter or underscore.
+    * Cannot start with a number.
+    * Case-sensitive (age ≠ Age).
+
+    Examples:
+      name = "Alice"  # String variable
+      age = 25        # Integer variable
+      height = 5.5    # Float variable
+      is_student = True  # Boolean variable
+
+5. Data Types
+    Common data types in Python:
+
+      * Text Type: str
+      * Numeric Types: int, float, complex
+      * Sequence Types: list, tuple, range
+      * Mapping Type: dict
+      * Set Types: set, frozenset
+      * Boolean Type: bool
+
+    Example:
+      x = "Hello"  # str
+      y = 10       # int
+      z = 3.14     # float
+      a = [1, 2, 3]  # list
+
+6. Numbers
+    Python supports three types of numbers:
+
+      * Integers (int): Whole numbers (e.g., 1, 100)
+      * Floating-point (float): Decimal numbers (e.g., 3.14, 2.718)
+      * Complex (complex): Numbers with real and imaginary parts (e.g., 1+2j)
+
+    Basic Operations:
+
+    x = 10
+    y = 3
+    print(x + y)  # Addition
+    print(x - y)  # Subtraction
+    print(x * y)  # Multiplication
+    print(x / y)  # Division
+    print(x % y)  # Modulus (remainder)
+
+7. Typecasting
+      Converting one data type to another.
+
+    Examples:
+      x = 5          # int
+      y = str(x)     # Convert to string
+      z = float(x)   # Convert to float
+      print(type(y))  # Output: <class 'str'>
+      print(type(z))  # Output: <class 'float'>
+
+8. Strings
+   * Strings are sequences of characters enclosed in quotes (' or ").
+
+   Common Operations:
+    text = "Python"
+    print(text[0])    # First character
+    print(text[-1])   # Last character
+    print(len(text))  # Length of string
+    print(text.upper())  # Convert to uppercase
+    print(text.lower())  # Convert to lowercase
+   
+   Concatenation
+    first = "Hello"
+    second = "World"
+    print(first + " " + second)  # Output: Hello World
+
+9. Booleans
+   * Booleans represent True or False.
+   Example:
+    is_raining = False
+    print(is_raining)  # Output: False
+    print(5 > 3)       # Output: True
+    print(5 == 3)      # Output: False
+
+10. Operators
+    * Operators perform operations on variables and values.
+    * Operator Type	Operators	Example
+
+    Arithmetic	+, -, *, /, %, //, **	x + y
+    Assignment	=, +=, -=, etc.	x += 5
+    Comparison	==, !=, >, <, >=, <=	x > y
+    Logical	and, or, not	x > 5 and y < 10
+    Bitwise	&, `	, ^, ~, <<, >>`
+
+    Example:
+      a = 10
+      b = 3
+      print(a + b)    # Addition
+      print(a > b)    # Comparison
+      print(a and b)  # Logical AND
+
+
+
+
+
+
+
+
+
+
+
